@@ -3,7 +3,7 @@
 namespace Pion\Laravel\ChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
 use Pion\Laravel\ChunkUpload\Exceptions\UploadFailedException;
 use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;

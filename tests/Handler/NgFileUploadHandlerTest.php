@@ -3,7 +3,7 @@
 namespace ChunkTests\Handler;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use PHPUnit\Framework\TestCase;
 use Pion\Laravel\ChunkUpload\Config\FileConfig;
 use Pion\Laravel\ChunkUpload\Exceptions\ChunkInvalidValueException;

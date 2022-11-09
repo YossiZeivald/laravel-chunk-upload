@@ -2,7 +2,7 @@
 
 namespace Pion\Laravel\ChunkUpload\Save;
 
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Illuminate\Support\Str;
 use Pion\Laravel\ChunkUpload\ChunkFile;
 use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
